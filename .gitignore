@@ -1,0 +1,45 @@
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Dependencies and generated front-end files
+node_modules/
+dist/
+build/
+coverage/
+.next/
+.nuxt/
+.output/
+.vercel/
+.turbo/
+
+# Python back-end environments, caches, and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.py[cod]
+
+# Common back-end build output
+bin/
+obj/
+target/
+
+# Logs, caches, and local databases
+*.log
+.cache/
+*.sqlite
+*.sqlite3
+*.db
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
